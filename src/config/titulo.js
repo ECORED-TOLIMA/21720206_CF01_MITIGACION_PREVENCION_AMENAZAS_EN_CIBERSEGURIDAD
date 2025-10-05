@@ -1,1 +1,2 @@
-module.exports = 'ECOBASE_SENA'
+module.exports =
+  'Fundamentos del ciberespacio, la ciberseguridad y los delitos informáticos'

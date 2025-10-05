@@ -9,11 +9,17 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")     
+      .col-lg-3.col-md-5.col-7.mb-lg-0.mb-4
         figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          img(src='@/assets/curso/temas/intro/img01.svg', alt='Imagen decorativa')
+      .col-lg-9
+        .tarjeta.tarjeta--gris1.p-4
+          p.mb-0 Este componente formativo permite comprender los fundamentos del ciberespacio, la ciberseguridad y los delitos informáticos, abordando su evolución, características y regulaciones vigentes. Su propósito es proporcionar a los aprendices las bases necesarias para identificar amenazas digitales, conocer las normativas de seguridad y entender el impacto del cibercrimen a nivel nacional e internacional. A través del análisis de conceptos clave y casos aplicados, se explorarán estrategias de prevención y respuesta para fortalecer la seguridad en entornos digitales. Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
+    
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EBTxhJ7SJBE?si=VfvjNcyGuy-r6stA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 
